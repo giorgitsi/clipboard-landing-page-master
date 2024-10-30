@@ -5,14 +5,41 @@
 }
 
 body {
+  font-family: "Bai Jamjuree", sans-serif;
 
   min-height: 100vh;
 }
 
+/* - Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%) */
+
+.short-text {
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.short-text h2 {
+  color: hsl(214, 8%, 36%);
+
+}
+
+.short-text p {
+  color: hsl(201, 11%, 66%);
+
+}
+
+
+/* header start */
 .navbar {
   background-image: url(./images/bg-header-desktop.png);
   background-repeat: no-repeat;
-  padding: 50px;
   min-height: 100vh;
   background-size: 100% auto;
   text-align: center;
@@ -23,7 +50,155 @@ body {
   gap: 20px;
 }
 
+.navbar h1 {
+  color: hsl(210, 10%, 33%);
+
+}
+
+.navbar p {
+  color: hsl(201, 11%, 66%);
+}
+
 .btn-container-downloads {
   gap: 20px;
   display: flex;
+  margin-top: 20px;
 }
+
+.download-ios {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 16px;
+}
+
+.download-mac {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 16px;
+}
+
+/* header end */
+
+
+
+
+/* your-snippets start */
+.your-snippets {
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 620px;
+  flex-direction: column;
+}
+
+/* your-snippets end */
+
+
+
+/* pc-content start */
+.computer-settings {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.pc-img-container {
+  margin-left: -50px;
+}
+
+.pc-content-container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.pc-content h1 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.pc-content p {
+  color: hsl(201, 11%, 66%);
+
+}
+
+/* pc-content end */
+
+
+
+/* access clipboard start */
+.access-clipboard {
+  margin-top: 140px;
+  width: 500px;
+  margin: auto;
+}
+
+/* access clipboard end */
+
+
+
+/* devices images start */
+.devices-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* devices images end */
+
+
+
+/* supercharge start */
+.supercharge h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.supercharge p {
+  font-weight: 500;
+}
+
+/* supercharge end */
+
+
+
+/* short explain start */
+.short-explain {
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  width: 100%;
+
+}
+
+.icon-img {
+  margin-bottom: 25px;
+}
+
+/* short explain end */
+
+
+
+/* img container start */
+.company-images-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 100px;
+  align-items: center;
+}
+
+/* img container end*/
